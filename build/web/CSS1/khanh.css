@@ -1,0 +1,351 @@
+.loginPage{ 
+        margin-left: 600px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border: 2px solid rgb(0,0,238);
+        border-radius: 10px;
+        width: 400px;
+        display: flex;
+}
+.loginForm{
+        width: 50%;
+        height: 50%;
+        margin: auto;
+        padding: 30px;
+    }
+    .btLogin{
+        margin-top: 20px;
+    }
+    #txtTextfile{
+        border-radius: 10px;
+        width: 100%;
+        height: 30px;
+    }
+    #buttonLogin{
+        border-radius: 10px;
+        width: 105%;
+        height: 30px;
+        background-color: blue;
+        font-size: medium;
+    }
+    #buttonLoginReset{
+        border-radius: 10px;
+        width: 105%;
+        height: 30px;
+        background-color: red;
+        font-size: medium;  
+    }
+    .imageHanaShop{
+        width: 100%;
+        height: 200px;
+        background-image: linear-gradient(0,rgba(255,0,0,0.2), rgba(0,0,255,0.2));
+                
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-size: contain; 
+    }
+    .imageHanaShopBottom{
+        width: 100%;
+        height: 200px;
+        background-image: linear-gradient(0,rgba(255,0,0,0.2), rgba(0,0,255,0.2)),
+                        url(https://kynguyenlamdep.com/wp-content/uploads/2020/04/hinh-nen-trang-622x1024.jpg);
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-size: contain; 
+    }
+    .createAccount{
+        margin-top: 20px;
+    }
+
+    /*createAccount*/
+    .createPage{
+        margin-left: 600px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        border: 2px solid rgb(0,0,238);
+        border-radius: 10px;
+        width: 400px;
+        display: flex;
+    }
+    .createForm{
+        width: 50%;
+        height: 50%;
+        margin: auto;
+        padding: 30px;
+    }
+    .buttonCreate{
+        margin-top: 10px;
+    }
+    .backgoundCreateAccount{
+        width: 100%;
+        height: 200px;
+        background-image: linear-gradient(0,rgba(255,0,0,0.2), rgba(0,0,255,0.2));
+      
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-size: contain; 
+    }
+    .backgoundCreateAccount a {
+        text-decoration: none;
+    }
+    /*displayAdmin*/
+    .hearderDisplayAdmin{
+        min-height: 150px;
+        /* background-color: rgb(0,0,255,0.3);  */
+        background-image: linear-gradient(0,rgba(255,0,0,0.2), rgba(0,0,255,0.2));
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-listAdmin {
+       margin-top: 20px;
+     
+    }
+    .nav-itemAdmin {
+        color: #fff;
+        list-style: none;
+        margin: 0 8px;
+        display: inline-block;
+       
+    }
+    .nav-itemAdmin a{
+        text-decoration: none;
+        list-style: none;
+        
+    }
+    .h1Admin{
+        /* background-color: rgb(0,0,255,0.3);  */
+        background-image: linear-gradient(0,rgba(255,0,0,0.2), rgba(0,0,255,0.2));
+        text-align: center;
+    }
+    .searchAdmin{
+        background-image: linear-gradient(0,rgba(255,0,0,0.2), rgba(0,0,255,0.2));
+        border: 3px solid rgb(0,0,238);
+        border-radius: 10px;
+        display: flex;
+        width: 800px;
+        margin-left: 380px;
+    }
+    .textSearch{
+        margin-left: 60px;
+    }
+    .searchAdminList{
+        width: 50%;
+        height: 50%;
+        margin: auto;
+        padding: 30px;
+    }
+    .buttonSearchAdmin{
+        text-align: center;
+        margin-top: 20px;
+        
+    }
+    .searchButton{
+        font-size: medium;
+    }
+    .Fail{
+        width: 100%;
+        height: 200px;
+        background-image: linear-gradient(0,rgba(255,0,0,0.2), rgba(0,0,255,0.2));
+       
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-size: contain; 
+    }
+    .displayAdmin{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .tableAdmin{
+        border: 0px solid black;
+        border-radius: 10px;
+        
+    }
+    .columnAdmin{
+        width: 122px;
+        border-radius: 10px;
+        color: blue;
+    }
+    .rowAdmin{
+        border-radius: 10px;
+    }
+    .createNewItem a{
+   
+        text-decoration: none;
+       margin-left: 40px;
+    }
+    .createNewItem{
+        background-image: linear-gradient(0,rgba(255,0,0,0.2), rgba(0,0,255,0.2));
+        border: 3px solid rgb(0,0,238);
+        width: 200px;
+        padding: 20px;
+    }
+    .answer{
+        margin-top: 5px;
+    }
+
+    /*createQuestion*/
+    .answerCreate{
+        margin-top: 30px;
+        margin-bottom: 30px;
+      
+    }
+    .answer1{
+        position: relative;
+        left: -20px;
+    }
+    .backgoundCreateItem{
+        width: 100%;
+        height: 200px;
+        background-image: linear-gradient(0,rgba(255,0,0,0.2), rgba(0,0,255,0.2));
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-size: contain; 
+    }
+    #txtText{
+        width: 50%;
+        border-radius: 10px;
+        height: 30px;
+    }
+    #txtTextQuestionContent{
+        width: 50%;
+        border-radius: 10px;
+        height: 100px;
+    }
+    .create{
+        border: 2px solid rgb(0,0,238);
+        border-radius: 10px;
+        width: 800px;
+        margin-left: 350px;
+    }
+    .createQuestion{
+        margin-left: 250px;
+    }
+    #button{
+        border-radius: 10px;
+        width: 280px;
+        height: 30px;
+        background-color: blue;
+        font-size: medium;
+    }
+    #buttonCreateQuestion{
+        border-radius: 10px;
+        width: 280px;
+        height: 30px;
+        background-color: red;
+        font-size: medium;
+    }
+    
+    /*displayUser*/
+    .searchUser{
+        background-image: linear-gradient(0,rgba(255,0,0,0.2), rgba(0,0,255,0.2));
+        border: 3px solid rgb(0,0,238);
+        border-radius: 10px;
+        display: flex;
+        width: 800px;
+        margin-left: 380px;
+    }
+    .searchUserList{
+        width: 50%;
+        height: 50%;
+        margin: auto;
+        padding: 30px;
+        margin-right: 50px;
+    }
+    .answerUser{
+        padding: 10px;
+    }
+    
+    #clockdiv{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: sans-serif;
+        color: #fff;
+        display: inline-block;
+        font-weight: 100;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    #clockdiv > div{
+        padding: 10px;
+        border-radius: 3px;
+        background-image: linear-gradient(0,rgba(255,0,0,0.2), rgba(0,0,255,0.2));
+        display: inline-block;
+    }
+    
+    #clockdiv div > span{
+        padding: 15px;
+        border-radius: 3px;
+        background-image: linear-gradient(0,rgba(255,0,0,0.2), rgba(0,0,255,0.2));
+        display: inline-block;
+    }
+    
+    .smalltext{
+        padding-top: 5px;
+        font-size: 16px;
+    }
+    /*test.jsp*/
+    .rowUserFinish{
+        border-radius: 10px;
+        text-align: center;
+    }
+    .rowContent{
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .rowAnswer{
+        border-radius: 10px;
+        padding: 10px;
+    }
+    #submit{
+        font-size: 25px;
+        margin-bottom:20px;
+        background-image: linear-gradient(0,rgba(255,0,0,0.2), rgba(0,0,255,0.2)),
+                        url(https://kynguyenlamdep.com/wp-content/uploads/2020/04/hinh-nen-trang-622x1024.jpg);
+    }
+    .question{
+        margin-bottom: 20px;
+        color: red;
+    }
+    .choose{
+        margin-bottom: 5px;
+    }
+    /*markUser.jsp*/
+    .BackgroundSocre{
+        margin-top: 250px;
+        width: 100%;
+        height: 200px;
+        background-image: linear-gradient(0,rgba(255,0,0,0.2), rgba(0,0,255,0.2)),
+                        url(https://kynguyenlamdep.com/wp-content/uploads/2020/04/hinh-nen-trang-622x1024.jpg);
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-size: contain; 
+    }
+    
+    .Backto{
+        margin-top: 50px;
+        background-image: linear-gradient(0,rgba(255,0,0,0.2), rgba(0,0,255,0.2));
+        border: 3px solid rgb(0,0,238);
+        width: 200px;
+        padding: 20px;
+    }
+    .Backto a{
+        text-decoration: none;
+        margin-left: 40px;
+    }
+    /*history.jsp*/
+    .searchHistory{
+        position: relative;
+        left: 600px;
+    }
+    /*paging*/
+    .paging{
+       margin-top: 20px;
+    }
+    .paging a{
+        font-size:35px;
+        border: 3px solid rgb(0 0 238 / 41%);
+        border-radius:10px;
+        padding:5px;
+        text-decoration: none;
+    }
